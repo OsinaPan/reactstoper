@@ -1,8 +1,12 @@
+import Container from "./components/Container/Container";
+import Timer from "./components/Stopwatch/Stopwatch";
+
+
 const App = () => {
   return (
-    <div>
-      <h1>ReactStoper</h1>
-    </div>
+    <Container>
+      <Timer />
+    </Container>
   )
 };
 
